@@ -4,6 +4,8 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log
+lerna-debug.log.*
 /test/unit/coverage/
 /test/e2e/reports/
 selenium-debug.log
@@ -15,16 +17,3 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-
-lerna-debug.log
-lerna-debug.log.*
-lib
-examples/element-ui
-examples/pages/en-US
-examples/pages/zh-CN
-examples/pages/es
-.npmrc
-coverage
-waiter.config.js
-build/bin/algolia-key.js
-.envrc

@@ -11,7 +11,7 @@ then
   echo "release $VERSION ..."
 
   #build
-  VERSION = $VERSION npm run dist
+  VERSION=$VERSION npm run dist
 
   #publish
   npm publish
