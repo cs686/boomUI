@@ -1,0 +1,15 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+src/utils/popper.js
+src/utils/date.js
+examples/play
+*.sh
+node_modules
+lib
+coverage
+*.md
+*.scss
+
