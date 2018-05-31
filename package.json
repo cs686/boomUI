@@ -1,8 +1,8 @@
 {
   "name": "boom-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A compontent of vue UI",
-  "author": "种松松 <chongsongsong@chehejia.com>",
+  "author": "cs686 <chongsongsong@chehejia.com>",
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
