@@ -8,6 +8,8 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
+const isRelease = !!(process.env.NODE_ENV === 'release')
+
 const createLintingRule = () => ({
   test: /\.(js|vue)$/,
   loader: 'eslint-loader',
@@ -21,9 +23,9 @@ const createLintingRule = () => ({
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
-  entry: {
+  entry:  !isRelease ? {
     app: './examples/main.js'
-  },
+  } : './src/index.js',
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
